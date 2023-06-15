@@ -1,0 +1,44 @@
+Body {
+  margin: 0;
+  /* Auto Layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Font */
+  font-family: "Outfit", sans-serif;
+  /* Background */
+  background-color: #d6e2f0;
+}
+
+.qrCode {
+  max-width: 16rem;
+  /* Autolayout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* Background */
+  background-color: #ffffff;
+  /* Margin/Padding/Border */
+  margin: 5rem 2.5rem;
+  padding: 1rem;
+  border-radius: 5%;
+}
+
+.qrCode__Image {
+  max-width: inherit;
+  /* Margin/Padding/Border */
+  border-radius: 5%;
+}
+
+.qrCode__Title {
+  /* Font */
+  font-size: 20px;
+  color: #1f3251;
+}
+
+.qrCode__Text {
+  /* Font */
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
